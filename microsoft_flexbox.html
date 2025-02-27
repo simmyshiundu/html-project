@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Microsoft Flexbox</title>
+    <style>
+        .container {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .container .box {
+            height: 500px;
+            width: 297px;
+            position: relative;
+            box-shadow: 0 5px 10px grey;
+        }
+
+        .container .box button {
+            background-color: #0067B8;
+            position: absolute;
+            bottom: 5%;
+        }
+
+        .container .box a {
+            color: white;
+            text-decoration: none;
+        }
+
+        .container .box .box3 {
+            position: absolute;
+            bottom: 0;
+            color: #0067B8;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <img src="Content-Card-Surface-Laptop-AI-7Ed-Platinum-MC006.avif" alt="my image">
+            <h2>Save up to $700.00 on select Surface Laptop, Copilot+ PC</h2>
+            <p>Save big on an AI-powered companion made for next-gen perfomance. For a limited time.</p>
+            <button><a href="">Shop now</a></button>
+        </div>
+        <div class="box">
+            <img src="Xbox-Controller-Valentine-CP-1.avif" alt="my image">
+            <h2>$10 off select Xbox Wireless Controllers</h2>
+            <p>Gear up for victory with controllers built for comfort and precision.</p>
+            <button><a href="">Shop Xbox controllers</a></button>
+        </div>
+        <div class="box">
+            <img src="Content-Card-Xbox-Series-X-2TB-Galaxy-Black-Series-X-1TB-Digital-White-Series-S-1TB-White.avif"
+                alt="my image">
+            <h2>Trade in and get up to $150 for your used console</h2>
+            <p>Buy a new Xbox Series X or S and get cash back on an eligible trade-in. Limited-time offer.</p>
+            <button><a href="">Shop Xbox consoles</a></button><br>
+            <a href="" class="box3">Check your device's eligibility ></a>
+        </div>
+        <div class="box">
+            <img src="gldn-XSS-CP-Xbox-Series-S-Evergreen.webp" alt="my image">
+            <h2>Xbox Series S</h2>
+            <p>Next-gen performance in the smallest Xbox ever</p>
+            <button><a href="">Shop Xbox Series S</a></button>
+        </div>
+    </div>
+</body>
+
+</html>
