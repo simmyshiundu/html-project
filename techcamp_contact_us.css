@@ -1,0 +1,73 @@
+.webpage {
+    position: relative;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #F9F9F9;
+    
+}
+
+.navigation {
+    background-color: black;
+    width: 100%;
+    height: 100px;
+    padding-bottom: 10px;
+    opacity: 0.8;
+    position: fixed;
+    
+}
+
+.navigation ul {
+    display: flex;
+    margin-left: 25%;
+}
+
+.navigation li {
+    margin: 30px;
+}
+
+.navigation a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navigation a:hover {
+    color: darkcyan;
+}
+
+.navigation span {
+    color: black;
+    background-color: yellow;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.form {
+    position: absolute;
+    margin-top: 10%;
+    left: 15%;
+    text-align: center;
+}
+
+.form h2 {
+    font-weight: normal;
+}
+
+.form .msg {
+    color: #666666;
+}
+
+.form .msg1 {
+    color: orange;
+}
+
+.form button {
+    background-color: orange;
+    border: none;
+    width: 200px;
+    height: 50px;
+}
+
+.form a {
+    color: white;
+    text-decoration: none;
+}
